@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+    <title>Actividades</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+	<title>07 - Modelo caja contenedor</title>
+	<link rel="stylesheet" type="text/css" href="Maki Sushi Bar/Página web/Styles.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/logo.ico"/>
+</head>
+<body>
+<header>
+	<h1 class="titulo">Actividades</h1>
+	<style>
+		body {
+		  margin: 0;
+		  font-family: Arial, Helvetica, sans-serif;
+		}
+		
+		.topnav {
+		  overflow: hidden;
+		  background-color: #333;
+		}
+		
+		.topnav a {
+		  float: left;
+		  display: block;
+		  color: #f2f2f2;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 17px;
+		}
+		
+		.topnav a:hover {
+		  background-color: #ddd;
+		  color: black;
+		}
+		
+		.topnav a.active {
+		  background-color: #aa1d04;
+		  color: white;
+		}
+		
+		.topnav .icon {
+		  display: none;
+		}
+		
+		@media screen and (max-width: 600px) {
+		  .topnav a:not(:first-child) {display: none;}
+		  .topnav a.icon {
+			float: right;
+			display: block;
+		  }
+		}
+		
+		@media screen and (max-width: 600px) {
+		  .topnav.responsive {position: relative;}
+		  .topnav.responsive .icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		  }
+		  .topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		  }
+		}
+		</style>
+		</head>
+		<body>
+		
+		<div class="topnav" id="myTopnav">
+		  <a href="file:///Users/diegomerizaldeleon/Documents/U/Materiales%20y%20procesos/Maki%20Sushi%20Bar/Página%20web/Home.html#Recetas" class="active">Home</a>
+		  <a href="file:///Users/diegomerizaldeleon/Documents/U/Materiales%20y%20procesos/Maki%20Sushi%20Bar/Página%20web/Receteas.html">Recetas</a>
+		  <a href="file:///Users/diegomerizaldeleon/Documents/U/Materiales%20y%20procesos/Maki%20Sushi%20Bar/Página%20web/Actividades.html#Home">Actividades</a>
+		  <a href="file:///Users/diegomerizaldeleon/Documents/U/Materiales%20y%20procesos/Maki%20Sushi%20Bar/Página%20web/Fusión%20Japonesa.html">Fusión Japonesa</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		  </a>
+		</div>
+		<div class="burger" onclick="toggleMenu()">
+			<div class="line1"></div>
+			<div class="line2"></div>
+			<div class="line3"></div>
+		  </div>
+		  <script src="script.js"></script>
+		<script>
+		  function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+			  x.className += " responsive";
+			} else {
+			  x.className = "topnav";
+			}
+		  }
+		  </script>
+	</header>
+		<h1 class="Fusion">Bienvenidos a una experiencia de Fusión Japonesa</h1>
+	
+	
+
+	<aside id="barralateral">
+		<section id="menu">
+			<h2>Experiencias</h2>
+			<div class="responsive">
+				<div class="gallery">
+				  <a target="_blank" href="https://img.freepik.com/free-photo/pretty-blonde-girl-taking-picture-by-cell-phone-with-sushi-mojito_496169-1908.jpg?w=2000&t=st=1686567575~exp=1686568175~hmac=1013e924edd49ac774f460facf37fa4ca1ae522f5cf5c4ac0042979bb0ddea0f">
+					<img src="https://img.freepik.com/free-photo/pretty-blonde-girl-taking-picture-by-cell-phone-with-sushi-mojito_496169-1908.jpg?w=2000&t=st=1686567575~exp=1686568175~hmac=1013e924edd49ac774f460facf37fa4ca1ae522f5cf5c4ac0042979bb0ddea0f" width="600" height="400">
+				  </a>
+				  <div class="desc">Temaki</div>
+				</div>
+			  </div>
+			  
+			  
+			  <div class="responsive">
+				<div class="gallery">
+				  <a target="_blank" href="https://img.freepik.com/free-photo/beautiful-girl-enjoying-sushi-summer-terrace-modern-caffe_496169-1920.jpg?w=2000&t=st=1686567530~exp=1686568130~hmac=c030e48f136a39b6cb6d4deea4f6efe2ac338bf110ed78ee9dee4774103e1996">
+					<img src="https://img.freepik.com/free-photo/beautiful-girl-enjoying-sushi-summer-terrace-modern-caffe_496169-1920.jpg?w=2000&t=st=1686567530~exp=1686568130~hmac=c030e48f136a39b6cb6d4deea4f6efe2ac338bf110ed78ee9dee4774103e1996"  width="600" height="400">
+				  </a>
+				  <div class="desc">Hosomaki</div>
+				</div>
+			  </div>
+			  
+			  <div class="responsive">
+				<div class="gallery">
+				  <a target="_blank" href="https://img.freepik.com/free-photo/blonde-woman-eating-sushi-using-chopsticks_496169-314.jpg?w=2000&t=st=1686567736~exp=1686568336~hmac=72a67e2047242198ddd01dd91b540f8c62aef8b4b8b81c61b0a356b9db862d1f">
+					<img src="https://img.freepik.com/free-photo/blonde-woman-eating-sushi-using-chopsticks_496169-314.jpg?w=2000&t=st=1686567736~exp=1686568336~hmac=72a67e2047242198ddd01dd91b540f8c62aef8b4b8b81c61b0a356b9db862d1f"  width="600" height="400">
+				  </a>
+				  <div class="desc">Maki</div>
+				</div>
+			  </div>
+			  
+			  <div class="responsive">
+				<div class="gallery">
+				  <a target="_blank" href="https://img.freepik.com/free-photo/lunch-chinese-restaurant-summer-terrace-two-sistres-eat-sushi-with-chinese-sticks_496169-2083.jpg?w=2000&t=st=1686567821~exp=1686568421~hmac=968dd116cc025aa6d315e1aed16213ec2afcdaf35781c67f5d750b5eba78e846">
+					<img src="https://img.freepik.com/free-photo/lunch-chinese-restaurant-summer-terrace-two-sistres-eat-sushi-with-chinese-sticks_496169-2083.jpg?w=2000&t=st=1686567821~exp=1686568421~hmac=968dd116cc025aa6d315e1aed16213ec2afcdaf35781c67f5d750b5eba78e846"  width="600" height="400">
+				  </a>
+				  <div class="desc">Futomaki</div>
+				</div>
+			  </div>
+			</ul>
+		  </section>
+	</aside>
+	
+	<section id="contenidoprincipal">
+		<article>
+				<section>
+					<hgroup class="primeraexperiencia">
+						<h2 class="ex">Experiencia de cocina japonesa</h2>
+						<h4>Ven a disfrutar de una experiencia culinaria en donde el principal actor en nuestras cocinas serás tú.</h4>
+					</hgroup>
+				</section>
+				<figure>
+					<img src="https://img.freepik.com/free-photo/lifestyle-people-learning-make-sushi_23-2149865315.jpg?w=2000&t=st=1686567907~exp=1686568507~hmac=544ca69a5ccea217ae4fc7bd5a8fa6b8834587d700b11cfe3bf477d0f73c6e4a"	width="100%" height="auto"/>
+					
+					<figcaption class="primeradescripcion">
+						Clases de sushi donde los clientes pueden aprender a hacer sus propios rollos de sushi. Esto es una experiencia divertida y educativa que atraerá a personas interesadas en aprender más sobre la preparación de sushi.
+					<figcaption>	
+				</figure>
+			</article>
+
+			<article>
+				<section>
+					<h2 class="ex">Experiencia de coctelería japonesa</h2>
+				</section>
+				<figure>
+					<img src="https://img.freepik.com/free-photo/lifestyle-people-learning-make-sushi_23-2149865314.jpg?t=st=1686567907~exp=1686568507~hmac=d3586268ec45d1d5363c8087040c474dafeb952e28e0eafd362b515474e1c527" 	width="100%" height="auto"/>
+					
+					<figcaption class="primeradescripcion">
+						Clases de cocteleria donde los clientes pueden aprender a hacer sus propias bebidas. Esto es una experiencia formal y elegante de aprendizaje para personas que buscan conocer más sobre las distitnas preparaciones de esta cultura.
+					<figcaption>	
+				</figure>
+				
+			</article>
+
+			<article>
+				<section>
+					<h2 class="ex">Noches temáticas</h2>
+				</section>
+				<figure>
+					<img src="https://img.freepik.com/free-photo/salmon-rice-sushi-rolls-wooden-table-restaurant-ai-generative_123827-23940.jpg?w=2000&t=st=1686568271~exp=1686568871~hmac=eeba55b37bc89e4ce7df816696b5656350165eb822573022ac4a69949a5f96e3"	width="100%" height="auto"/>
+					
+					<figcaption class="primeradescripcion">
+						Organiza noches temáticas en las que se destaque una región o estilo de sushi específico. Por ejemplo, una noche de sushi tradicional japonés o una noche de sushi fusión. Esto permitirá a los clientes experimentar diferentes variedades y estilos de sushi.
+				</figure>
+				
+			</article>
+		</section>
+		
+		<section id="contacto">
+			<h2>Contacto</h2>
+			<p>Puedes encontrarnos en redes como @Makisuhibar</p>
+		  </section>
+		  	
+	<footer>
+		<p>Todos los derechos reservados &copy; 2023 Maki Sushi Bar</p>
+		</footer>
+	</body>
+</html>
